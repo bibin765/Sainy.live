@@ -9,9 +9,9 @@ export default class MyComponent extends Component {
       <Typist>
         Coming Soon
         <Typist.Backspace count={11} delay={200} />
-        {<h1>Coming very Soon</h1>}
+        {<h3>Please Wait</h3>}
         <Typist.Delay ms={500}/>
-            Sainy.live
+            <h1>Sainy.live</h1>
       </Typist>
       </div>
     );
